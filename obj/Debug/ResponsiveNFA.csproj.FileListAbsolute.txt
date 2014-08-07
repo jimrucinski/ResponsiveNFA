@@ -1,0 +1,10 @@
+C:\Users\Jim\Documents\Visual Studio 2012\Projects\ResponsiveTesting\ResponsiveTesting\bin\ResponsiveTesting.dll
+C:\Users\Jim\Documents\Visual Studio 2012\Projects\ResponsiveTesting\ResponsiveTesting\bin\ResponsiveTesting.pdb
+C:\Users\Jim\Documents\Visual Studio 2012\Projects\ResponsiveTesting\ResponsiveTesting\obj\Debug\ResponsiveNFA.csprojResolveAssemblyReference.cache
+C:\Users\Jim\Documents\Visual Studio 2012\Projects\ResponsiveTesting\ResponsiveTesting\obj\Debug\ResponsiveTesting.dll
+C:\Users\Jim\Documents\Visual Studio 2012\Projects\ResponsiveTesting\ResponsiveTesting\obj\Debug\ResponsiveTesting.pdb
+C:\Projects\ResponsiveNFA\bin\ResponsiveTesting.dll
+C:\Projects\ResponsiveNFA\bin\ResponsiveTesting.pdb
+C:\Projects\ResponsiveNFA\obj\Debug\ResponsiveNFA.csprojResolveAssemblyReference.cache
+C:\Projects\ResponsiveNFA\obj\Debug\ResponsiveTesting.dll
+C:\Projects\ResponsiveNFA\obj\Debug\ResponsiveTesting.pdb

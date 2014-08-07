@@ -1,0 +1,214 @@
+﻿body {
+    font-size:100%;/*default browser font size is 16px*/
+    font-family:'Tenor Sans', sans-serif, Calibri;
+    background-color:#000000;
+}
+a
+{
+    text-decoration:none;
+    color:#c1ff2c;
+}
+#wrapper {
+
+    padding-top:3px;
+}
+.firstLetters
+{
+    font-size: xx-large;
+    color: #ffcd2c;
+    font-weight: bolder;
+}
+#skypeCall
+{
+    display:block;
+}
+#mobileCall
+{
+    display:none;
+}
+#emailAddress
+{
+    font-size:.5em;
+    letter-spacing:3px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-bottom:10px;
+    float:left;
+    text-transform:none;
+    
+}
+#phoneNumber
+{
+    font-size:.5em;
+    text-align:right;
+    letter-spacing:5px;
+    padding-top:10px;
+    padding-right:20px;
+    padding-bottom:10px;
+}
+#header {
+    font-size:2.0em;
+    letter-spacing: .58em;
+    background-color:#333333;   
+    text-transform:uppercase;
+    color:#cccccc;
+    max-width:980px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    /*-moz-border-radius-topleft:20px;
+    -moz-border-radius-bottomleft:20px;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-bottomright:20px;
+    -webkit-border-top-right-radius: 20px;
+    -khtml-border-radius: 20px;*/
+}
+#banner {
+    width:100%;
+    text-align:center;
+
+}
+#nfabanner {
+
+    width:100%;
+    max-width:980px;
+}
+#boxes {
+    background-color:#474747;
+    max-width:980px;
+    margin-top:0px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    text-align: justify;
+    font-size:.80em;
+    border:5px ridge #1c54a7;
+    padding:6px 6px 6px 6px;
+}
+.box {
+    vertical-align:top;
+    display:inline-block;
+    width:280px;
+    min-height:280px;
+    padding:5px 10px 5px 10px;
+    overflow:hidden;
+    background-color:#ffcd2c;
+    
+    color:#000000;
+    /*-moz-border-radius-topleft:20px;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-bottomright:20px;
+    -webkit-border-top-right-radius: 20px;
+    -khtml-border-radius: 20px;*/
+}
+.box H5 {
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+    font-size:1.5em;
+    font-weight:bolder;
+    text-align:center;
+    letter-spacing:1em;
+}
+    .box p {
+        font-family:Calibri;
+    }
+#left {    
+    
+}
+#middle {
+
+}
+#right {    
+    
+}
+.stretch {/*helps to evenly space the three boxes and get the right box all the way over*/
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+#footer {
+    text-align:right;
+    font-size:.75em;
+    font-style:oblique;
+    color:#ffffff;
+    background-color:#000000;
+    padding:0 6px 3px 0;
+    }
+
+
+@media only screen and (max-width:768px) {
+    body
+    
+    #header {
+        font-size: 1.25em;
+        letter-spacing: .60em;
+    }
+    #boxes {
+    margin-top:2px;
+    margin-left:0px;
+    margin-right:0px;
+    text-align: justify;
+    font-size:1em;
+    height:auto;
+
+
+}
+    .box {
+    vertical-align:top;
+    display:inline-block;
+    width:auto;
+   
+    border:1px solid cornflowerblue;
+    min-height:0;
+}
+     #emailAddress
+        {
+         font-size:.70em;
+         letter-spacing:1px;
+        }
+     #skypeCall
+        {
+
+         font-size:1.25em;
+         letter-spacing:1px;
+            
+        }
+
+    @media only screen and (max-width:320px)
+    {
+        #header
+        {
+
+            letter-spacing: 0em;
+        }
+
+        #mobileCall
+        {
+            color: aqua;
+            display: block;
+        }
+
+        #skypeCall
+        {
+            display: none;
+        }
+        #emailAddress
+        {
+            display:inline-block;
+            text-align:center;
+            letter-spacing:1px;
+            font-size:.6em;
+        }
+        #phoneNumber
+        {
+            display: inline-block;
+            white-space:nowrap;
+            text-align:center;
+            font-size:.8em;
+            letter-spacing:2px;
+        }
+    }
+}
